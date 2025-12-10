@@ -1,0 +1,25 @@
+﻿@using MyPortofolio.Resources
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<section class="container py-5">
+    <div class="intro-section text-center mx-auto index-section">
+        <h1 class="display-4 mb-3">@Resources.Index_Hello Roland Doyen</h1>
+        <p class="lead">@Resources.Index_Presentation</p>
+        <p class="mt-4">@Resources.Index_Goal</p>
+
+        <h2 class="h5 mt-5 mb-3">@Resources.Index_ToFind</h2>
+
+        <ul class="list-unstyled intro-to-find">
+            <li class="mb-1">@Html.Raw(Resources.Index_ProjectsPage)</li>
+            <li class="mb-1">@Html.Raw(Resources.Index_CVPage)</li>
+        </ul>
+
+        <p class="mt-4">@Resources.Index_MyObjective</p>
+
+        <a asp-controller="Home" asp-action="Projects" class="btn btn-primary btn-custom me-2">@Resources.Index_SeeProjects</a>
+        <a asp-controller="Home" asp-action="CV" class="btn btn-outline-dark btn-custom">@Resources.ViewMyCV</a>
+    </div>
+</section>

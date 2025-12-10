@@ -1,0 +1,65 @@
+.badge-csharp {
+    background-color: #00b019;
+    color: white;
+}
+
+.badge-dotnet {
+    background-color: #512bd4;
+    color: white;
+}
+
+.badge-sql {
+    background-color: #f29111;
+    color: white;
+}
+
+.badge-mvc {
+    background-color: #ff6f61;
+    color: white;
+}
+
+.badge-blazor {
+    background-color: #20c997;
+    color: white;
+}
+
+.badge-html {
+    background-color: #e44d26;
+    color: white;
+}
+
+.badge-css {
+    background-color: #2965f1;
+    color: white;
+}
+
+.badge-js {
+    background-color: #f0db4f;
+    color: black;
+}
+
+.badge-ajax {
+    background-color: #6c757d;
+    color: white;
+}
+
+.badge-json {
+    background-color: #740808;
+    color: white;
+}
+
+.badge-crud {
+    background-color: #795548;
+    color: white;
+}
+
+.badge-bootstrap {
+    background-color: #563d7c;
+    color: white;
+}
+
+.swagger-btn {
+    background-color: #85ea2d;
+    color: #000;
+    border: none;
+}
