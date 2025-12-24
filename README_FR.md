@@ -1,82 +1,99 @@
-## Portfolio
-Ce site présente mes projets, mon CV et mes compétences techniques avec une interface moderne, responsive et minimaliste.
+# Mon Portfolio
+Ce site présente mes projets, mon CV et mes compétences techniques à travers une interface moderne, réactive et minimaliste.
 
-## Table des matières
-- [Portfolio](#portfolio)
-- [Table des matières](#table-des-matieres)
-- [Technologies](#technologies)
-- [Installation et exécution](#installation-et-execution)
-- [Structure du projet](#structure-du-projet)
-- [Contenu du projet](#contenu-du-projet)
-- [Fonctionnalités](#fonctionnalites)
+> **Note :** Ce dépôt public est une version finalisée du projet destinée à mon portfolio. Le développement et les pipelines CI/CD vers Azure sont gérés via un dépôt privé, ce qui explique l'historique simplifié des commits ici.
 
-## Technologies
-- Backend : C#, ASP.NET Core 
-- Frontend : Blazor, HTML5, CSS3, Bootstrap
+## 📌 Table des matières
+- [Mon Portfolio](#mon-portfolio)
+  - [📌 Table des matières](#-table-des-matières)
+  - [🚀 Démo en direct](#-démo-en-direct)
+  - [🛠️ Stack Technique](#️-stack-technique)
+  - [🏛️ Architecture \& Philosophie](#️-architecture--philosophie)
+  - [📂 Structure du projet](#-structure-du-projet)
+  - [📡 Contenu du projet](#-contenu-du-projet)
+  - [✨ Fonctionnalités](#-fonctionnalités)
+  - [🚀 Déploiement](#-déploiement)
+  - [⚙️ Installation \& Configuration locale](#️-installation--configuration-locale)
 
-## Installation et exécution
-1. Clonez le repository
-```html
-git clone https://github.com/RolandDoyen/MyPortofolioPublic.git
-cd ClanManager
-```
-3. Restaurez les packages NuGet si nécessaire
-```html
-dotnet restore
-```
-4. Lancez l'application
-```html
-dotnet run
-```
-5. Accédez à l'application
-```html
-https://localhost:44342/
-```
 
-## Structure du projet
-- wwwroot
-  - css
-    - cv.css
-    - projects.css
-    - site.css
-  - files
-    - Roland_Doyen_CV_EN.pdf
-    - Roland_Doyen_CV_FR.pdf
-- Controllers
-  - CultureController.cs
-  - HomeController.cs
-- Resources
-  - Resources.en.resx
-  - Resources.fr.resx
-  - Resources.resx
-- Views
-  - Home
-    - CV_EN.cshtml
-    - CV_FR.cshtml
-    - Index.cshtml
-    - Projects.cshtml
-  - Shared
-    - _LanguageSwitch.cshtml
-    - _Layout.cshtml
-    - _ValidationScriptsPartial.cshtml
-    - Error.cshtml
-  - _ViewImports.cshtml
-  - _ViewStart.cshtml
-- appsetting.json
-- Program.cs  
+## 🚀 Démo en direct
+Le portfolio est déployé et accessible ici :  
+**[👉 Visiter le Portfolio](https://rolanddoyen.com)** *(Remplacez par votre lien réel)*
 
-## Contenu du projet
-1. Pages principales :
-  - `/` : Accueil avec présentation et liens vers projets et CV
-  - `/Projects` : Liste des projets avec description, technologies, lien site et GitHub
-  - `/CV` : Consultation et téléchargement du CV en PDF (FR/EN)
-2. Fichiers statiques :  
-  - `wwwroot/files` : PDF des CV  
-  - `wwwroot/css` : Styles
-3. Ressources :  
-  - `Resources.resx` : Textes multilingues  
-  - `Resources.Designer.cs` : Lien automatique des ressources au code
 
-##  Fonctionnalités
-- Le site est disponible en Français (FR) et en Anglais (EN -> English)
-- Les fichiers PDF du CV changent automatiquement selon la langue sélectionnée
+## 🛠️ Stack Technique
+- **Backend :** C# / ASP.NET Core
+- **Frontend :** Blazor Server / WebAssembly, HTML5, CSS3
+- **Design :** Bootstrap pour un rendu responsive et "mobile-first".
+- **Localisation :** ASP.NET Core Localization (fichiers de ressources) pour le support multilingue.
+
+
+## 🏛️ Architecture & Philosophie
+Le projet suit une approche **MVC / Composants** propre pour garantir la maintenabilité :
+- **Séparation des préoccupations :** Distinction claire entre les vues, les ressources statiques et les ressources de localisation.
+- **Design Minimaliste :** Priorité à la performance et à la lisibilité pour mettre en valeur le contenu professionnel.
+- **Localisation Dynamique :** Utilisation d'un contrôleur dédié pour gérer le changement de langue de manière fluide.
+
+
+## 📂 Structure du projet
+La solution est organisée pour gérer efficacement le contenu localisé et les fichiers statiques :
+
+- **Controllers/** : Logique pour la navigation et la gestion de la culture.
+  - `CultureController.cs` : Gère le basculement de langue.
+  - `HomeController.cs` : Gère le routage des pages principales.
+- **Views/** : Vues Razor pour l'interface utilisateur.
+  - `Home/` : Vues spécifiques aux pages (Index, Projets, CV).
+  - `Shared/` : Layouts et vues partielles réutilisables (sélecteur de langue).
+- **Resources/** : Fichiers `.resx` contenant les traductions FR et EN.
+- **wwwroot/** :
+  - `css/` : Feuilles de style modulaires pour des sections spécifiques.
+  - `files/` : CV au format PDF hébergés en plusieurs langues.
+
+
+## 📡 Contenu du projet
+1. **Pages principales :**
+   - `/` : Page d'accueil avec un résumé professionnel.
+   - `/Projects` : Présentation détaillée des projets avec stacks techniques et liens.
+   - `/CV` : Visionneuse intégrée et options de téléchargement pour les CV.
+2. **Ressources statiques :**
+   - Les CV sont stockés dans `wwwroot/files` pour un accès direct.
+   - Les styles personnalisés sont divisés en `cv.css`, `projects.css` et `site.css` pour une meilleure maintenance.
+
+
+## ✨ Fonctionnalités
+- **Support multilingue :** Site entièrement disponible en français (FR) et en anglais (EN).
+- **CV Adaptatif :** La visionneuse de CV et les liens de téléchargement se mettent à jour automatiquement selon la langue sélectionnée.
+- **Interface Responsive :** Optimisée pour les ordinateurs, tablettes et appareils mobiles.
+
+
+## 🚀 Déploiement
+- **Plateforme** : Hébergé sur **Azure App Service (Windows/Linux)**.
+- **CI/CD** : Déploiement entièrement automatisé via **GitHub Actions** (déclenché au push) pour une intégration continue.
+
+
+## ⚙️ Installation & Configuration locale
+Suivez ces étapes pour exécuter le portfolio localement.
+
+**Prérequis**
+* **SDK .NET 8**
+* **Visual Studio 2022** ou **VS Code**
+
+**Étapes**
+1. **Cloner le dépôt :**
+  ```bash
+  git clone https://github.com/RolandDoyen/MyPortofolioPublic.git
+  cd MyPortofolioPublic
+  ```
+
+2. **Restaurer les packages NuGet :**
+  ```bash
+  dotnet restore
+  ```
+
+3. **Lancer l'application :**
+  ```bash
+  dotnet run
+  ```
+
+4. **Accéder au site :**
+Ouvrez votre navigateur et allez sur `https://localhost:XXXX/`.

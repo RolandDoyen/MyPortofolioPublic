@@ -130,7 +130,8 @@
     <value>API - Movies</value>
   </data>
   <data name="API_Description" xml:space="preserve">
-    <value>A lightweight .NET API providing a JSON-based CRUD interface for movie data, with minimal security and a rule to prevent duplicates, supporting front-end operations via AJAX.</value>
+    <value>A &lt;strong&gt;robust&lt;/strong&gt; .NET 8 API providing a JSON-based CRUD interface for movie data. It features &lt;strong&gt;JWT authentication&lt;/strong&gt;, strict &lt;strong&gt;uniqueness constraints&lt;/strong&gt;, and a centralized error-handling middleware, optimized for asynchronous AJAX operations.
+</value>
   </data>
   <data name="ClanManager_Description" xml:space="preserve">
     <value>A clan management application that lets you create, edit, and manage clans, handle users and their roles, and assign leaders for each clan.</value>
@@ -163,7 +164,7 @@
     <value>There you will find :</value>
   </data>
   <data name="Portfolio_Description" xml:space="preserve">
-    <value>My portfolio showcases my recent projects and CV, allowing you to explore my skills in .NET and full-stack development.</value>
+    <value>Explore my portfolio to discover &lt;strong&gt;optimized&lt;/strong&gt; .NET 8 and Full-Stack projects, showcasing clean architecture, secure RESTful APIs, and modern frontend integrations.</value>
   </data>
   <data name="Projects_Git" xml:space="preserve">
     <value>View on GitHub</value>
@@ -172,12 +173,27 @@
     <value>Visit the site</value>
   </data>
   <data name="WEB_Description" xml:space="preserve">
-    <value>A simple web application for managing movies, with pages to view a list of films, create, edit, and delete entries, all powered via AJAX calls to a backend API returning JSON.</value>
+    <value>A modern, responsive CRUD application designed to manage a cinema catalog. Features a decoupled architecture using &lt;strong&gt;Vanilla JavaScript&lt;/strong&gt; to consume a &lt;strong&gt;.NET 8 REST API&lt;/strong&gt; . Includes automated &lt;strong&gt;JWT authentication management&lt;/strong&gt; , dynamic DOM updates, and standardized error handling.</value>
   </data>
   <data name="WEB_Title" xml:space="preserve">
     <value>WEB - Movies</value>
   </data>
   <data name="Swagger" xml:space="preserve">
     <value>Swagger</value>
+  </data>
+  <data name="Index_Description_3" xml:space="preserve">
+    <value>This portfolio presents a selection of personal projects that reflect the way I work.</value>
+  </data>
+  <data name="Index_Presentation_V2" xml:space="preserve">
+    <value>a Fullstack .NET Developer with a strong backend focus, passionate about clean code and simple, functional design.</value>
+  </data>
+  <data name="Index_Description_1" xml:space="preserve">
+    <value>I build reliable and maintainable applications, with close attention to code quality and a clear architecture.</value>
+  </data>
+  <data name="Index_Description_2" xml:space="preserve">
+    <value>I enjoy proposing simple, user-friendly solutions. When necessary, I’m not afraid to challenge requirements in order to better understand the real needs and deliver truly appropriate solutions.</value>
+  </data>
+  <data name="My_Projects" xml:space="preserve">
+    <value>My projects</value>
   </data>
 </root>

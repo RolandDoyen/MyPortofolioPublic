@@ -130,7 +130,7 @@
     <value>API - Films</value>
   </data>
   <data name="API_Description" xml:space="preserve">
-    <value>Une API .NET légère offrant une interface CRUD basée sur JSON pour les données de films, avec une sécurité minimale et une règle pour éviter les doublons, supportant les opérations du front-end via AJAX.</value>
+    <value>Une API .NET 8 &lt;strong&gt;robuste&lt;/strong&gt; offrant une interface CRUD JSON pour les données cinématographiques. Elle intègre l'&lt;strong&gt;authentification JWT&lt;/strong&gt;, des contraintes d'&lt;strong&gt;unicité strictes&lt;/strong&gt; et un middleware de gestion d'erreurs centralisé, optimisé pour les opérations AJAX asynchrones.</value>
   </data>
   <data name="ClanManager_Description" xml:space="preserve">
     <value>Une application de gestion de clans qui permet de créer, éditer et gérer des clans, gérer les utilisateurs et leurs rôles, et assigner des leaders à chaque clan.</value>
@@ -163,7 +163,7 @@
     <value>Vous y trouverez :</value>
   </data>
   <data name="Portfolio_Description" xml:space="preserve">
-    <value>Mon portfolio présente mes projets récents et mon CV, permettant de découvrir mes compétences en développement .NET et full-stack.</value>
+    <value>Explorez mon portfolio pour découvrir des projets .NET 8 et Full-Stack &lt;strong&gt;optimisés&lt;/strong&gt;, mettant en avant une architecture propre, des APIs REST sécurisées et des intégrations frontend modernes.</value>
   </data>
   <data name="Projects_Git" xml:space="preserve">
     <value>Voir sur GitHub</value>
@@ -172,12 +172,33 @@
     <value>Visiter le site</value>
   </data>
   <data name="WEB_Description" xml:space="preserve">
-    <value>Une application web simple pour gérer des films, avec des pages pour consulter la liste des films, créer, éditer et supprimer des entrées, le tout alimenté par des appels AJAX vers une API backend renvoyant du JSON.</value>
+    <value>Une application CRUD moderne et responsive conçue pour la gestion d'un catalogue de cinéma. Elle présente une architecture découplée utilisant &lt;strong&gt;Vanilla JavaScript&lt;/strong&gt; pour consommer une &lt;strong&gt;API REST .NET 8&lt;/strong&gt;. Inclut une &lt;strong&gt;gestion automatisée de l'authentification JWT&lt;/strong&gt;, des mises à jour dynamiques du DOM et une gestion standardisée des erreurs.</value>
   </data>
   <data name="WEB_Title" xml:space="preserve">
     <value>WEB - Films</value>
   </data>
   <data name="Swagger" xml:space="preserve">
     <value>Swagger</value>
+  </data>
+  <data name="Index_Description_3" xml:space="preserve">
+    <value>Ce portfolio présente quelques &lt;strong&gt;projets personnels&lt;/strong&gt;
+qui reflètent ma &lt;strong&gt;façon de travailler&lt;/strong&gt;.</value>
+  </data>
+  <data name="Index_Presentation_V2" xml:space="preserve">
+    <value>&lt;strong&gt;Développeur Fullstack .NET&lt;/strong&gt;, principalement orienté backend.</value>
+  </data>
+  <data name="Index_Description_1" xml:space="preserve">
+    <value>Je développe des applications &lt;strong&gt;fiables &lt;/strong&gt;et &lt;strong&gt;maintenables&lt;/strong&gt;,
+en faisant attention à la &lt;strong&gt;qualité du code&lt;/strong&gt;
+et à une &lt;strong&gt;architecture claire&lt;/strong&gt;.</value>
+  </data>
+  <data name="Index_Description_2" xml:space="preserve">
+    <value>J’aime proposer des solutions &lt;strong&gt;simples &lt;/strong&gt;et &lt;strong&gt;user-friendly&lt;/strong&gt;.
+Quand c’est nécessaire, je n’hésite pas à &lt;strong&gt;challenger les demandes&lt;/strong&gt;
+pour mieux comprendre le &lt;strong&gt;besoin réel&lt;/strong&gt;
+et apporter une &lt;strong&gt;solution vraiment adaptée&lt;/strong&gt;.</value>
+  </data>
+  <data name="My_Projects" xml:space="preserve">
+    <value>Mes projets</value>
   </data>
 </root>

@@ -7,13 +7,13 @@
 
 .cv-name {
     color: #000000;
-    font-size: 2.5rem;
+    font-size: 4rem;
     line-height: 1.1;
     margin: 0 0 0.5rem 0;
 }
 
 .cv-role {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     margin-bottom: 0.5rem;
 }
 
@@ -23,6 +23,7 @@
     line-height: 1.1;
     margin: 0 0 0.5rem 0;
     page-break-inside: avoid;
+    font-weight: bold;
 }
 
 .job-title {
@@ -30,6 +31,7 @@
     font-size: 1rem;
     line-height: 1.1;
     margin: 0 0 0.5rem 0;
+    display: inline;
 }
 
 .company {
@@ -56,7 +58,11 @@
 }
 
 .cv-spacer {
-    height: 1rem;
+    border: none;
+    height: 1px;
+    background-color: rgba(0,0,255,0.5);
+    width: 100%;
+    margin: 20px 0;
 }
 
 

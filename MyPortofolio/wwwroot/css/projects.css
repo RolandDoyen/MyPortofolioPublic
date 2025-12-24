@@ -1,20 +1,20 @@
 .badge-csharp {
-    background-color: #00b019;
+    background-color: #000eae;
     color: white;
 }
 
 .badge-dotnet {
-    background-color: #512bd4;
+    background-color: #0015ff;
     color: white;
 }
 
-.badge-sql {
-    background-color: #f29111;
+.badge-efcore {
+    background-color: #009aff;
     color: white;
 }
 
 .badge-mvc {
-    background-color: #ff6f61;
+    background-color: #00d0ff;
     color: white;
 }
 
@@ -28,27 +28,22 @@
     color: white;
 }
 
-.badge-css {
-    background-color: #2965f1;
-    color: white;
-}
-
 .badge-js {
     background-color: #f0db4f;
     color: black;
 }
 
-.badge-ajax {
+.badge-restful {
     background-color: #6c757d;
     color: white;
 }
 
-.badge-json {
-    background-color: #740808;
+.badge-fetch {
+    background-color: #6c757d;
     color: white;
 }
 
-.badge-crud {
+.badge-jwt {
     background-color: #795548;
     color: white;
 }

@@ -61,7 +61,8 @@ namespace MyPortofolio.Resources {
         }
         
         /// <summary>
-        ///   Recherche une chaîne localisée semblable à A lightweight .NET API providing a JSON-based CRUD interface for movie data, with minimal security and a rule to prevent duplicates, supporting front-end operations via AJAX..
+        ///   Recherche une chaîne localisée semblable à A &lt;strong&gt;robust&lt;/strong&gt; .NET 8 API providing a JSON-based CRUD interface for movie data. It features &lt;strong&gt;JWT authentication&lt;/strong&gt;, strict &lt;strong&gt;uniqueness constraints&lt;/strong&gt;, and a centralized error-handling middleware, optimized for asynchronous AJAX operations.
+        ///.
         /// </summary>
         public static string API_Description {
             get {
@@ -115,6 +116,33 @@ namespace MyPortofolio.Resources {
         }
         
         /// <summary>
+        ///   Recherche une chaîne localisée semblable à I build reliable and maintainable applications, with close attention to code quality and a clear architecture..
+        /// </summary>
+        public static string Index_Description_1 {
+            get {
+                return ResourceManager.GetString("Index_Description_1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à I enjoy proposing simple, user-friendly solutions. When necessary, I’m not afraid to challenge requirements in order to better understand the real needs and deliver truly appropriate solutions..
+        /// </summary>
+        public static string Index_Description_2 {
+            get {
+                return ResourceManager.GetString("Index_Description_2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à This portfolio presents a selection of personal projects that reflect the way I work..
+        /// </summary>
+        public static string Index_Description_3 {
+            get {
+                return ResourceManager.GetString("Index_Description_3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Recherche une chaîne localisée semblable à This site is my personal portfolio. Its purpose is simple: to showcase the projects I have completed and highlight my technical skills..
         /// </summary>
         public static string Index_Goal {
@@ -151,6 +179,15 @@ namespace MyPortofolio.Resources {
         }
         
         /// <summary>
+        ///   Recherche une chaîne localisée semblable à a Fullstack .NET Developer with a strong backend focus, passionate about clean code and simple, functional design..
+        /// </summary>
+        public static string Index_Presentation_V2 {
+            get {
+                return ResourceManager.GetString("Index_Presentation_V2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Recherche une chaîne localisée semblable à &lt;strong&gt;A Projects page&lt;/strong&gt; – where I list my personal and professional projects, each with a summary, a link to the deployed site, and a link to its public GitHub repository..
         /// </summary>
         public static string Index_ProjectsPage {
@@ -178,7 +215,16 @@ namespace MyPortofolio.Resources {
         }
         
         /// <summary>
-        ///   Recherche une chaîne localisée semblable à My portfolio showcases my recent projects and CV, allowing you to explore my skills in .NET and full-stack development..
+        ///   Recherche une chaîne localisée semblable à My projects.
+        /// </summary>
+        public static string My_Projects {
+            get {
+                return ResourceManager.GetString("My_Projects", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à Explore my portfolio to discover &lt;strong&gt;optimized&lt;/strong&gt; .NET 8 and Full-Stack projects, showcasing clean architecture, secure RESTful APIs, and modern frontend integrations..
         /// </summary>
         public static string Portfolio_Description {
             get {
