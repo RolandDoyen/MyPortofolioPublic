@@ -1,0 +1,147 @@
+﻿@using MyPortfolio.Resources
+
+@{
+    ViewData["Title"] = "CV FR";
+}
+
+@section Styles {
+    <link rel="stylesheet" href="~/css/cv.css" />
+}
+
+<div class="cv-container">
+
+    <div class="d-flex justify-content-between align-items-center">
+        <h1 class="western cv-name">ROLAND DOYEN</h1>
+        <a asp-controller="Home" asp-action="DownloadCV" asp-route-ts="@DateTime.Now.Ticks" class="btn btn-primary btn-lg">@Resources.DownloadCV</a>
+    </div>
+
+    <p class="cv-role">
+        <b>Développeur .NET orienté backend / Full-Stack </b>
+    </p>
+
+    <p class="cv-spacer"></p>
+
+    <h2 class="cv-section-title">CONTACT</h2>
+    <p class="cv-p">
+        Wavre, Belgique | roland.doyen@gmail.com | 0477 931 624 | Permis B
+    </p>
+
+    <p class="cv-spacer"></p>
+
+    <h2 class="cv-section-title">RÉSUMÉ PROFESSIONNEL</h2>
+    <p class="cv-p">Développeur .NET orienté backend avec une solide expérience dans la conception et la maintenance d’applications métiers robustes pour des clients dans les secteurs automobile, public et juridique.</p>
+    <p class="cv-p">Passionné par l’écriture de code serveur propre, efficace et maintenable, l’optimisation des performances applicatives et la gestion fluide des données.</p>
+
+    <p class="cv-spacer"></p>
+
+    <h2 class="cv-section-title">EXPÉRIENCES</h2>
+
+    <h3 class="job-title">Développeur C#</h3>
+    <p class="company">Projet indépendant de développement de jeu (Unity) | 2023 – 2025</p>
+    <ul class="cv-ul">
+        <li class="cv-li">Développement d’un projet personnel en C# à l’aide de Unity, Blender et Krita, avec travail en autonomie sur la conception, l’implémentation et les itérations.</li>
+        <li class="cv-li">Renforcement des fondamentaux en C#, de la structuration du code, de l’architecture, du débogage et de la résolution de problèmes.</li>
+    </ul>
+
+    <p></p>
+
+    <h3 class="job-title">DÉVELOPPEUR .NET</h3>
+    <p class="company">Vox Teneo | Belgique | 2022 – 2023</p>
+    <p class="cv-p"><strong>Entreprise :</strong> Société de conseil informatique (~3M€ de chiffre d’affaires, 11 employés) spécialisée dans les applications métiers sur mesure.</p>
+    <p class="cv-p"><strong>Missions :</strong> Travaux sur des projets de transformation digitale pour des clients belges et français dans les secteurs de la mobilité et juridique.</p>
+    <p class="cv-p"><strong>Projets :</strong></p>
+    <ul class="cv-ul">
+        <li class="cv-li"><strong>Plateforme Genealex :</strong> développement et maintenance d’une application métier critique utilisée par plusieurs clients, dont Guénifey — 4ᵉ acteur du secteur juridique français — en assurant conformité et correction des bugs critiques.</li>
+        <li class="cv-li"><strong>D’Ieteren Group – Plateforme e-commerce :</strong> Refactoring et modernisation des sites merchandising pour 36 points de vente et 150 concessions (Volkswagen, Audi, Porsche, Seat, Cupra, Skoda). Example: <a href="https://shop.porsche.be/" target="_blank">shop.porsche.be</a></li>
+    </ul>
+    <p class="cv-p"><strong>Résultats :</strong></p>
+    <ul class="cv-ul">
+        <li class="cv-li">Conformité légale et réglementaire garantie.</li>
+        <li class="cv-li">Fiabilité et satisfaction utilisateur améliorées.</li>
+        <li class="cv-li">Sites modernisés renforçant l’image de marque et la satisfaction client.</li>
+    </ul>
+
+    <p></p>
+
+    <h3 class="job-title">DÉVELOPPEUR .NET (Stage)</h3>
+    <p class="company">Biz-on-Cloud | Belgique | 2020</p>
+    <p class="cv-p"><strong>Entreprise :</strong> Petit prestataire IT spécialisé dans les solutions web et cloud pour PME.</p>
+    <p class="cv-p"><strong>Projets :</strong> Développement full-stack pour plusieurs clients PME : sites web, automatisation d’outils métier, support technique.</p>
+    <p class="cv-p"><strong>Résultats :</strong></p>
+    <ul class="cv-ul">
+        <li class="cv-li">Livraison de solutions clé en main.</li>
+        <li class="cv-li">Relations clients durables, taux de satisfaction 100 %.</li>
+    </ul>
+
+    <p></p>
+
+    <h3 class="job-title">DÉVELOPPEUR D’APPLICATIONS</h3>
+    <p class="company">Le Forem | Belgique | 2016 – 2019</p>
+    <p class="cv-p"><strong>Entreprise :</strong> Institution publique avec 3 500 employés et 250 000 demandeurs d’emploi.</p>
+    <p class="cv-p"><strong>Projets :</strong> Développement et maintenance de l’application principale utilisée par tous les agents + support sur 15 applications liées.</p>
+    <p class="cv-p"><strong>Résultats :</strong></p>
+    <ul class="cv-ul">
+        <li class="cv-li">Continuité des opérations pour des milliers d’utilisateurs.</li>
+        <li class="cv-li">Interopérabilité et UX améliorées.</li>
+        <li class="cv-li">Contribution à la modernisation du code interne.</li>
+    </ul>
+
+    <p></p>
+
+    <h3 class="job-title">DÉVELOPPEUR .NET (Stage)</h3>
+    <p class="company">Oniryx | Louvain-la-Neuve | 2015</p>
+    <p class="cv-p"><strong>Entreprise :</strong> Société de conseil IT (&gt;17M€, 50–99 employés).</p>
+    <p class="cv-p"><strong>Projet :</strong> Développement d’une application interne de recrutement.</p>
+    <p class="cv-p"><strong>Résultats :</strong></p>
+    <ul class="cv-ul">
+        <li class="cv-li">Optimisation du recrutement et réduction du suivi manuel.</li>
+        <li class="cv-li">Conception full-stack en autonomie.</li>
+    </ul>
+
+    <p></p>
+
+    <h3 class="job-title">MISSIONS INTÉRIMAIRES</h3>
+    <p class="company">Diverses sociétés d’intérim | Belgique | 1999 – 2022</p>
+    <p class="cv-p"><strong>Missions :</strong> Travaux variés démontrant adaptabilité et fiabilité.</p>
+    <p class="cv-p"><strong>Résultats :</strong></p>
+    <ul class="cv-ul">
+        <li class="cv-li">Renforcement du travail d’équipe et de la communication.</li>
+        <li class="cv-li">Satisfaction client constante.</li>
+    </ul>
+
+    <p class="cv-spacer"></p>
+
+    <h2 class="cv-section-title">COMPÉTENCES TECHNIQUES</h2>
+    <ul class="cv-ul">
+        <li class="cv-li"><strong>Backend / .NET:</strong> C#, ASP.NET Core → .NET 10, POO, Architecture N-Tier/Clean Architecture, Design Patterns (Repository, UoW, DTO), API REST, versionnement d’API, injection de dépendances, programmation asynchrone, principes SOLID, Entity Framework / EF Core, migrations EF, LINQ, Identity, JWT, CORS, gestion des sessions, hachage de mots de passe (Bcrypt), JSON, XML, CSV, localisation / internationalisation</li>
+        <li class="cv-li"><strong>Bases de données:</strong> SQL Server, PostgreSQL, MySQL, MongoDB, modélisation relationnelle, requêtes SQL, procédures stockées, indexation</li>
+        <li class="cv-li"><strong>Frontend:</strong> Blazor, JavaScript (ES6+), React, Angular, Typescript, Fetch API, Bootstrap 5, HTML5, CSS3, Vite, Node.js, Design Responsif</li>
+        <li class="cv-li"><strong>Cloud / DevOps:</strong> Azure DevOps, CI/CD, Git, GitHub, GitHub Actions, Docker</li>
+        <li class="cv-li"><strong>Tests & Qualité:</strong> XUnit, Moq, Swagger (OpenAPI), Postman, journalisation (Serilog), monitoring applicatif (Azure Application Insights)</li>
+        <li class="cv-li"><strong>Outils / Méthodologies:</strong> Visual Studio, VS Code, SQL Server Management Studio (SSMS), Agile, Scrum, Kanban, TDD, DDD</li>
+        <li class="cv-li"><strong>Messagerie / Évènements:</strong> RabbitMQ</li>
+    </ul>
+
+    <p class="cv-spacer"></p>
+
+    <h2 class="cv-section-title">LANGUES</h2>
+    <ul class="cv-ul">
+        <li class="cv-li">Français : langue maternelle</li>
+        <li class="cv-li">Anglais : B2</li>
+    </ul>
+
+    <p class="cv-spacer"></p>
+
+    <h2 class="cv-section-title">SOFT SKILLS</h2>
+    <p class="cv-p">Autonomie • Résolution de problèmes • Apprentissage continu • Esprit d’équipe • Livraison de solutions critiques</p>
+
+    <p class="cv-spacer"></p>
+
+    <h2 class="cv-section-title">FORMATIONS</h2>
+    <ul class="cv-ul">
+        <li class="cv-li">Certificat en management de base</li>
+        <li class="cv-li">CESS – Promotion sociale</li>
+        <li class="cv-li">Auto-formation continue (2014–2025) : projets .NET API, Unity (C#, Blender), Odoo (Python, XML)</li>
+    </ul>
+
+</div>

@@ -1,0 +1,128 @@
+﻿@using MyPortfolio.Resources
+
+@{
+    ViewData["Title"] = "Projects";
+}
+
+@section Styles {
+    <link rel="stylesheet" href="~/css/projects.css" />
+}
+
+<section class="container py-5">
+    <h1 class="mb-4">@Resources.My_Projects</h1>
+
+    <div class="row g-4">
+        <div class="col-md-6">
+            <div class="card h-100 shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title">Clan Manager</h5>
+                    <p class="card-text">@Html.Raw(Resources.ClanManager_Description)</p>
+                    <p>
+                        <span class="badge badge-csharp me-1">C#</span>
+                        <span class="badge badge-dotnet me-1">.NET 8</span>
+                        <span class="badge badge-efcore me-1">EF Core</span>
+                        <span class="badge badge-mvc me-1">MVC</span>
+                        <span class="badge badge-blazor me-1">Blazor</span>
+                        <span class="badge badge-bootstrap me-1">Bootstrap 5</span>
+                        <span class="badge badge-html me-1">HTML 5</span>
+                    </p>
+                    <a href="https://clanmanager-rd.azurewebsites.net" class="btn btn-primary btn-sm" target="_blank">@Resources.Projects_Visit</a>
+                    <a href="https://github.com/RolandDoyen/ClanManagerPublic" class="btn btn-outline-dark btn-sm" target="_blank">@Resources.Projects_Git</a>
+                </div>
+            </div>
+        </div>
+        <div class="w-100"></div>
+
+        <div class="col-md-6">
+            <div class="card h-100 shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title">@Resources.API_Title</h5>
+                    <p class="card-text">@Html.Raw(Resources.API_Description)</p>
+                    <p>
+                        <span class="badge badge-csharp me-1">C#</span>
+                        <span class="badge badge-dotnet me-1">.NET 8</span>
+                        <span class="badge badge-efcore me-1">EF Core</span>
+                        <span class="badge badge-restful me-1">RESTful API</span>
+                        <span class="badge badge-jwt me-1">JWT</span>
+                    </p>
+                    <a href="https://moviesapi-rd.azurewebsites.net/swagger/index.html" class="btn btn-sm swagger-btn" target="_blank">@Resources.Swagger</a>
+                    <a href="https://github.com/RolandDoyen/MoviesApiPublic" class="btn btn-outline-dark btn-sm" target="_blank">@Resources.Projects_Git</a>
+                </div>
+            </div>
+        </div>
+        <div class="w-100"></div>
+
+        <div class="col-md-6">
+            <div class="card h-100 shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title">@Resources.WEB_Title</h5>
+                    <p class="card-text">@Html.Raw(Resources.WEB_Description)</p>
+                    <p>
+                        <span class="badge badge-js me-1">JavaScript (ES6+)</span>
+                        <span class="badge badge-fetch me-1">Fetch API</span>
+                        <span class="badge badge-jwt me-1">JWT</span>
+                        <span class="badge badge-bootstrap me-1">Bootstrap 5</span>
+                        <span class="badge badge-html me-1">HTML 5</span>
+                    </p>
+                    <a href="https://movies-rd.azurewebsites.net" class="btn btn-primary btn-sm" target="_blank">@Resources.Projects_Visit</a>
+                    <a href="https://github.com/RolandDoyen/MoviesWebAppPublic" class="btn btn-outline-dark btn-sm" target="_blank">@Resources.Projects_Git</a>
+                </div>
+            </div>
+        </div>
+        <div class="w-100"></div>
+
+        <div class="col-md-6">
+            <div class="card h-100 shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title">@Resources.React_Title</h5>
+                    <p class="card-text">@Html.Raw(Resources.React_Description)</p>
+                    <p>
+                        <span class="badge badge-js me-1">React</span>
+                        <span class="badge badge-jwt me-1">JWT</span>
+                        <span class="badge badge-bootstrap me-1">Bootstrap 5</span>
+                        <span class="badge badge-html me-1">HTML 5</span>
+                    </p>
+                    <a href="https://gray-rock-05997e203.2.azurestaticapps.net" class="btn btn-primary btn-sm" target="_blank">@Resources.Projects_Visit</a>
+                    <a href="https://github.com/RolandDoyen/MoviesReactPublic" class="btn btn-outline-dark btn-sm" target="_blank">@Resources.Projects_Git</a>
+                </div>
+            </div>
+        </div>
+        <div class="w-100"></div>
+
+        <div class="col-md-6">
+            <div class="card h-100 shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title">@Resources.Angular_Title</h5>
+                    <p class="card-text">@Html.Raw(Resources.Angular_Description)</p>
+                    <p>
+                        <span class="badge badge-js me-1">Angular</span>
+                        <span class="badge badge-jwt me-1">JWT</span>
+                        <span class="badge badge-bootstrap me-1">Bootstrap 5</span>
+                        <span class="badge badge-html me-1">HTML 5</span>
+                    </p>
+                    <a href="https://brave-forest-0e7abf903.1.azurestaticapps.net" class="btn btn-primary btn-sm" target="_blank">@Resources.Projects_Visit</a>
+                    <a href="https://github.com/RolandDoyen/MoviesAngularPublic" class="btn btn-outline-dark btn-sm" target="_blank">@Resources.Projects_Git</a>
+                </div>
+            </div>
+        </div>
+        <div class="w-100"></div>
+
+        <div class="col-md-6">
+            <div class="card h-100 shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title">Portfolio</h5>
+                    <p class="card-text">@Html.Raw(Resources.Portfolio_Description)</p>
+                    <p>
+                        <span class="badge badge-csharp me-1">C#</span>
+                        <span class="badge badge-dotnet me-1">.NET</span>
+                        <span class="badge badge-blazor me-1">Blazor</span>
+                        <span class="badge badge-bootstrap me-1">Bootstrap 5</span>
+                        <span class="badge badge-html me-1">HTML 5</span>
+                    </p>
+                    <a asp-controller="Home" asp-action="CV" class="btn btn-primary btn-sm">@Resources.ViewMyCV</a>
+                    <a href="https://github.com/RolandDoyen/MyPortfolioPublic" class="btn btn-outline-dark btn-sm" target="_blank">@Resources.Projects_Git</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

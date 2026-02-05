@@ -1,0 +1,18 @@
+﻿@using MyPortfolio.Resources
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<section class="container py-5">
+    <div class="intro-section text-center mx-auto index-section">
+        <h1 class="display-4 mb-3">@Resources.Index_Hello Roland Doyen</h1>
+        <p class="lead">@Html.Raw(Resources.Index_Presentation)</p>
+        <p class="mt-4">@Html.Raw(Resources.Index_Description_1)</p>
+        <p class="mt-4">@Html.Raw(Resources.Index_Description_2)</p>
+        <p class="mt-4">@Html.Raw(@Resources.Index_Description_3)</p>
+
+        <a asp-controller="Home" asp-action="Projects" class="btn btn-primary btn-custom me-2">@Resources.Index_SeeProjects</a>
+        <a asp-controller="Home" asp-action="CV" class="btn btn-outline-dark btn-custom">@Resources.ViewMyCV</a>
+    </div>
+</section>

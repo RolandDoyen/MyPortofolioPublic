@@ -1,0 +1,75 @@
+.cv-container {
+    max-width: 900px;
+    margin: auto;
+    padding: 4vw;
+    width: 100%;
+}
+
+.cv-name {
+    color: #000000;
+    font-size: 4rem;
+    line-height: 1.1;
+    margin: 0 0 0.5rem 0;
+}
+
+.cv-role {
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+}
+
+.cv-section-title {
+    color: #1a73e8;
+    font-size: 1.1rem;
+    line-height: 1.1;
+    margin: 0 0 0.5rem 0;
+    page-break-inside: avoid;
+    font-weight: bold;
+}
+
+.job-title {
+    color: #1a73e8;
+    font-size: 1rem;
+    line-height: 1.1;
+    margin: 0 0 0.5rem 0;
+    display: inline;
+}
+
+.company {
+    font-style: italic;
+    margin-bottom: 0.5rem;
+}
+
+.cv-ul {
+    margin: 0;
+    padding-left: 1.2rem;
+}
+
+.cv-li {
+    font-size: 1rem;
+    color: #333;
+}
+
+.cv-p {
+    color: #333333;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 1.4;
+    font-size: 1rem;
+    margin-bottom: 0.3rem;
+}
+
+.cv-spacer {
+    border: none;
+    height: 1px;
+    background-color: rgba(0,0,255,0.5);
+    width: 100%;
+    margin: 20px 0;
+}
+
+
+@media (max-width: 600px) {
+    .cv-name { font-size: 2rem; }
+    .cv-role { font-size: 1.2rem; }
+    .cv-section-title { font-size: 1rem; }
+    .cv-p, .cv-li { font-size: 0.95rem; }
+    .cv-container { padding: 6vw; }
+}

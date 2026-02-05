@@ -1,0 +1,147 @@
+﻿@using MyPortfolio.Resources
+
+@{
+    ViewData["Title"] = "CV EN";
+}
+
+@section Styles {
+    <link rel="stylesheet" href="~/css/cv.css" />
+}
+
+<div class="cv-container">
+
+    <div class="d-flex justify-content-between align-items-center">
+        <h1 class="western cv-name">ROLAND DOYEN</h1>
+        <a asp-controller="Home" asp-action="DownloadCV" asp-route-ts="@DateTime.Now.Ticks" class="btn btn-primary btn-lg">@Resources.DownloadCV</a>
+    </div>
+
+    <p class="cv-role">
+        <b>Backend-Oriented .NET / Fullstack Developer</b>
+    </p>
+
+    <p class="cv-spacer"></p>
+
+    <h2 class="cv-section-title">CONTACT</h2>
+    <p class="cv-p">
+        Wavre, Belgium | roland.doyen@gmail.com | 0477 931 624 | Driving License B
+    </p>
+
+    <p class="cv-spacer"></p>
+
+    <h2 class="cv-section-title">PROFESSIONAL SUMMARY</h2>
+    <p class="cv-p">Backend-focused .NET Developer with strong experience in designing and maintaining robust business applications for clients in the automotive, public, and legal sectors.</p>
+    <p class="cv-p">Passionate about writing clean, efficient, and maintainable server-side code, optimizing application performance, and ensuring seamless data management.</p>
+
+    <p class="cv-spacer"></p>
+
+    <h2 class="cv-section-title">EXPERIENCES</h2>
+
+    <h3 class="job-title">C# DEVELOPER</h3>
+    <p class="company">Independent Game Development Project (Unity) | 2023 – 2025</p>
+    <ul class="cv-ul">
+        <li class="cv-li">Development of a personal C# project using Unity, Blender, Krita. Working autonomously on design, implementation and iterations.</li>
+        <li class="cv-li">Strengthening C# fundamentals, code structure, architecture, debugging and problem-solving skills.</li>
+    </ul>
+
+    <p></p>
+
+    <h3 class="job-title">.NET DEVELOPER</h3>
+    <p class="company">Vox Teneo | Belgium | 2022 – 2023</p>
+    <p class="cv-p"><strong>Company:</strong> IT consulting firm (~€3M revenue, 11 employees) specializing in tailor-made business applications.</p>
+    <p class="cv-p"><strong>Missions:</strong> Worked on digital transformation projects for major Belgian and French clients in the mobility and legal sectors.</p>
+    <p class="cv-p"><strong>Projects:</strong></p>
+    <ul class="cv-ul">
+        <li class="cv-li"><strong>Genealex Platform:</strong> I developed and maintained a mission-critical business application used by multiple clients, including <i><b>Guénifey</b></i> — the platform’s largest client and the 4ᵗʰ largest player in the French legal sector — ensuring compliance and resolving critical bugs.</li>
+        <li class="cv-li"><strong>D’Ieteren Group – E-commerce platform:</strong> Refactored and modernized merchandising websites for 36 retail outlets and 150+ dealerships (Volkswagen, Audi, Porsche, Seat, Cupra, Skoda). Example: <a href="https://shop.porsche.be/" target="_blank">shop.porsche.be</a></li>
+    </ul>
+    <p class="cv-p"><strong>Results:</strong></p>
+    <ul class="cv-ul">
+        <li class="cv-li">Ensured the application remained fully compliant with legal and regulatory requirements.</li>
+        <li class="cv-li">Improved application reliability and user satisfaction.</li>
+        <li class="cv-li">Delivered modernized websites improving brand image and client satisfaction.</li>
+    </ul>
+
+    <p></p>
+
+    <h3 class="job-title">.NET DEVELOPER (Intern)</h3>
+    <p class="company">Biz-on-Cloud | Belgium | 2020</p>
+    <p class="cv-p"><strong>Company:</strong> Small IT service provider specializing in web and cloud solutions for SMEs.</p>
+    <p class="cv-p"><strong>Projects:</strong> Full-stack development for multiple small-business clients — website creation, automation, technical support throughout delivery lifecycle.</p>
+    <p class="cv-p"><strong>Results:</strong></p>
+    <ul class="cv-ul">
+        <li class="cv-li">Delivered turnkey web solutions from requirements to deployment.</li>
+        <li class="cv-li">Built long-term client relationships with 100 % satisfaction rate.</li>
+    </ul>
+
+    <p></p>
+
+    <h3 class="job-title">APPLICATION DEVELOPER</h3>
+    <p class="company">Le Forem | Belgium | 2016 – 2019</p>
+    <p class="cv-p"><strong>Company:</strong> Public institution with 3 500 employees managing over 250 000 job seekers across Wallonia.</p>
+    <p class="cv-p"><strong>Projects:</strong> Developed and maintained the core mainframe application used daily by all agents. Supported fifteen connected applications and implemented new business rules.</p>
+    <p class="cv-p"><strong>Results:</strong></p>
+    <ul class="cv-ul">
+        <li class="cv-li">Ensured business continuity for thousands of daily operations.</li>
+        <li class="cv-li">Improved interoperability between internal systems and enhanced user experience.</li>
+        <li class="cv-li">Contributed to modernization and code quality initiatives.</li>
+    </ul>
+
+    <p></p>
+
+    <h3 class="job-title">.NET DEVELOPER (Intern)</h3>
+    <p class="company">Oniryx | Louvain-la-Neuve | 2015</p>
+    <p class="cv-p"><strong>Company:</strong> IT consulting firm (&gt; €17M revenue, 50–99 employees).</p>
+    <p class="cv-p"><strong>Project:</strong> Developed internal recruitment application automating candidate tracking, interview scheduling, and reporting.</p>
+    <p class="cv-p"><strong>Results:</strong></p>
+    <ul class="cv-ul">
+        <li class="cv-li">Streamlined internal hiring, reducing manual tracking.</li>
+        <li class="cv-li">Demonstrated autonomy in full-stack design and delivery.</li>
+    </ul>
+
+    <p></p>
+
+    <h3 class="job-title">INTERIM MISSIONS</h3>
+    <p class="company">Various Interim Companies | Belgium | 1999 – 2022</p>
+    <p class="cv-p"><strong>Missions:</strong> Performed a variety of assignments in operational environments, ranging from one-day tasks to multi-year projects, demonstrating adaptability and reliability.</p>
+    <p class="cv-p"><strong>Results:</strong></p>
+    <ul class="cv-ul">
+        <li class="cv-li">Strengthened teamwork, communication, and adaptability.</li>
+        <li class="cv-li">Maintained consistent client satisfaction.</li>
+    </ul>
+
+    <p class="cv-spacer"></p>
+
+    <h2 class="cv-section-title">TECHNICAL SKILLS</h2>
+    <ul class="cv-ul">
+        <li class="cv-li"><strong>Backend / .NET:</strong> C#, ASP.NET Core → .NET 10, OOP, N-Tier Architecture/Clean Architecture, Design Patterns (Repository, UoW, DTO), REST APIs, API versioning, dependency injection, asynchronous programming, SOLID principles, Entity Framework / EF Core, EF migrations, LINQ, Identity, JWT, CORS, session management, password hashing (Bcrypt), JSON, XML, CSV, localization / internationalization</li>
+        <li class="cv-li"><strong>Databases:</strong> SQL Server, PostgreSQL, MySQL, MongoDB, relational modeling, SQL queries, stored procedures, indexing</li>
+        <li class="cv-li"><strong>Frontend:</strong> Blazor, JavaScript (ES6+), React, Angular, Typescript, Fetch API, Bootstrap 5, HTML5, CSS3, Vite, Node.js, Responsive Design</li>
+        <li class="cv-li"><strong>Cloud / DevOps:</strong> Azure DevOps, CI/CD, Git, GitHub, GitHub Actions, Docker</li>
+        <li class="cv-li"><strong>Testing & Quality:</strong> XUnit, Moq, Swagger (OpenAPI), Postman, logging (Serilog), application monitoring (Azure Application Insights)</li>
+        <li class="cv-li"><strong>Tools / Methodologies:</strong> Visual Studio, VS Code, SQL Server Management Studio (SSMS), Agile, Scrum, Kanban, TDD, DDD</li>
+        <li class="cv-li"><strong>Messaging / Event-Driven:</strong> RabbitMQ</li>
+    </ul>
+
+    <p class="cv-spacer"></p>
+
+    <h2 class="cv-section-title">LANGUAGES</h2>
+    <ul class="cv-ul">
+        <li class="cv-li">French: Native</li>
+        <li class="cv-li">English: B2</li>
+    </ul>
+
+    <p class="cv-spacer"></p>
+
+    <h2 class="cv-section-title">SOFT SKILLS</h2>
+    <p class="cv-p">Autonomy • Problem Solving • Continuous Learning • Team Spirit • Delivery of Critical Solutions</p>
+
+    <p class="cv-spacer"></p>
+
+    <h2 class="cv-section-title">EDUCATION & TRAINING</h2>
+    <ul class="cv-ul">
+        <li class="cv-li">Basic Management Certification</li>
+        <li class="cv-li">CESS – Social Promotion</li>
+        <li class="cv-li">Continuous Self-Training (2014–2025): .NET API projects, Unity (C#, Blender), Odoo (Python, XML)</li>
+    </ul>
+
+</div>
